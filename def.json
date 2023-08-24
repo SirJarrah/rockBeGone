@@ -1,0 +1,19 @@
+{
+    "id": "rockBeGone",
+    "name": "Rock Be Gone",
+    "version_name": "0.1",
+    "version_code": 1,
+    "author": "Jarrah",
+    "homepage": "",
+    "description": "Does what it says on the tin, no more pesky rocks.",
+    "packages": {
+        "Addon": {
+            "name": "rockBeGone",
+            "entry": "rockcheck.lua",
+            "dependencies": [
+                "Main/Data"
+            ],
+            "type": "Addon"
+        }
+    }
+}
